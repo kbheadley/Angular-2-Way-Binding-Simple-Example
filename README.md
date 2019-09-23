@@ -6,7 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Video Walkthrough
 
-
 Here's a walkthrough of the coding challenge:
 
 <img src='2-WayBindingSimple.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
