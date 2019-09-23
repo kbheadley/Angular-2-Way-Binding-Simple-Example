@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // 2-way binding - step 1:  declare the string to update
+  // Step 2 - add property to typescript appcomponent 
   userName = '';
 
  

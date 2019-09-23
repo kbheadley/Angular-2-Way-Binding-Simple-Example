@@ -1,23 +1,32 @@
 <div class = "container">
     <div class="row">
         <div class="col-xs-12">
+            <label>Angular 2-way Binding Demo</label>
+            <p></p>   
             <ol>
              <li>Add an input field which updates a property (username) via 2-way binding</li>
              <li>Output the username property via string interpolation below the input</li>
              <li>Add a button which may only be clicked if the username is not an empty string</li>
              <li>Upon clicking the button, the username should be reset to an empty string</li>
              </ol>
-             <hr>
-            <label>2-way binding demo - User name:</label>
+             <!-- Step 1:  Add input field  -->
+             <!-- Step 2:  see app.component.ts  -->
+             <!-- Step 3:  Add 2-way binding syntax "[()]" to bind to username property  -->
+             <!-- Step 4:  Make sure app.module.ts has FormsModule  -->
+             <!-- Step 5:  Output username via string interpolation "{{}}" -->
+             <!-- Step 6:  Bind to disable button property "[]" - check if username is empty - if so, disable button  -->
+             <!-- Step 7:  Button click event binding to assign value of empty string to username  -->
+            <label>Enter User name:</label>
             <input
                 type="text" 
                 class="form-control"
             [(ngModel)] = "userName">
-               
-            <p><label>Here is the username: {{userName}}</label></p>
+            <p></p>   
+            <p><label >Here is the bound user name: </label><label class="boundUserName"> {{userName}}</label></p>
+            <p></p>   
             <button class="btn btn-primary"
              [disabled]="userName === '' "
-             (click) = "userName = ''">Reset User</button>
+             (click) = "userName = ''">Reset User Name</button>
              
         </div>
     </div>
