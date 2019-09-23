@@ -1,6 +1,20 @@
 # Angular 2-Way Binding Simple Example
 
+This is a very simple example of 2-Way Data Binding!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+
+## Video Walkthrough
+
+
+Here's a walkthrough of the coding challenge:
+
+
+<img src='2-WayBindingSimple.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 
 ## Development server
 
